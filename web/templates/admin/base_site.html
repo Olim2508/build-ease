@@ -1,0 +1,12 @@
+{% extends "admin/base.html" %}
+{% load static i18n  %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Django administration</a>&emsp;
+    <a target="_blank" style="color:black" href="{% url 'schema-swagger-ui' %}">
+        <img width="25" src="{% static 'drf-yasg/swagger-ui-dist/favicon-32x32.png' %}">&nbsp;<b>Swagger</b>
+    </a>
+</h1>
+{% endblock %}
+
+
