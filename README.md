@@ -1,4 +1,4 @@
-# build-ease - deploy-ready django template on docker
+# build-ease - deploy-ready django project on docker
 
 ### How to use:
 
